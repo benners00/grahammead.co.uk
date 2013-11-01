@@ -1,4 +1,21 @@
-*
+# Ignore everything in this directory
+/*
+
+
+# Except these files
+
+!/wp-content
+/wp-content/*
+
+!/wp-content/themes
+/wp-content/themes/*
+
+!/wp-content/themes/pixelpower
+/wp-content/themes/pixelpower/*
+!/wp-content/themes/pixelpower/*
+
+!/wp-content/themes/pixelpower-child
+/wp-content/themes/pixelpower-child/*
+!/wp-content/themes/pixelpower-child/*
+
 !.gitignore
-!wp-content\themes\pixelpower-child
-!wp-content\themes\pixelpower
